@@ -4,7 +4,7 @@ const cors = require("cors");
 const axios = require("axios");
 const cheerio = require("cheerio");
 const port = 3000;
-
+const challenges = [];
 app.get("/", async (req, res) => {
   res.json({ message: " Welcome to Web Scraping API" });
 });
